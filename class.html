@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fashionstore</title>
+    <link rel="stylesheet" href="node_modules/bootstrap-icons/font/bootstrap-icons.css">
+    <style type="text/css">
+        header{
+            display:flex;  /*makes inline which are one below other*/
+            justify-content: space-around ; /* x axis par cahenges krne k lie*/
+            font-size: 20px;
+            font-style: Arial;
+            padding:20px;
+            margin-left: 105px;
+        }
+        nav span{
+            
+            padding: 10px;
+        }
+        .cart-name{
+            background-color: red;
+            color:white;
+            display:inline-block;
+            padding: 0px 4px 0px 4px;
+            border-radius: 50%;
+            text-align: center;
+
+        }
+        .brand-title{
+            font-weight: bold;
+            font-size:25px;
+        }
+        article{
+            text-align: center;
+            background-color: black;
+            color:white;
+            padding:15px;
+        }
+        .bi-lightning-charge-fill{
+            color:gold;
+        }
+
+
+    </style>
+</head>
+<body>
+    <header>
+
+        <div>
+            <div class="brand-title">Shopper.</div>
+        </div>
+        <div>
+            <nav>
+                <span>Home</span>
+                <span>Catalog</span>
+                <span>Shop</span>
+                <span>Pages</span>
+                <span>Blog</span>
+                <span>Docs</span>
+            </nav>
+    
+        </div>
+        <div>
+            <nav>
+                <span class="bi bi-search"></span>
+                <span class="bi bi-person"></span>
+                <span class="bi bi-heart"></span>
+                <span class="bi bi-cart2"><span class="cart-name">2</span></span>
+            </nav>
+            
+        </div>
+    </header>
+    <article>
+        <span class="bi bi-lightning-charge-fill"></span>
+        <span>HAPPY HOLIDAY DEALS ON EVERYTHING</span>
+        <span class="bi bi-lightning-charge-fill"></span>
+    </article>
+</body>
+</html>
